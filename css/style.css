@@ -1,0 +1,35 @@
+/* GENERAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  font-size: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* HEADER */
+
+header{
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+header .logo{
+  padding: 20px;
+}
+
+header .logo img{
+  width: 60px;
+  vertical-align: middle;
+}
+
+/* MAIN */
+
+
+
+/* FOOTER */
