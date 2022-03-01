@@ -3,9 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
 body{
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f6f8f9;
 }
 
@@ -74,4 +75,76 @@ main .buttons-container{
   border: 0.5px solid grey;
   padding: 11px 25px;
   vertical-align: middle;
+}
+.toboolist{
+  padding: 25px;
+}
+
+.toboolist .space{
+  padding: 5px;
+}
+.container.second{
+  background-color: #ffffff;
+  padding: 30px 50px;
+  margin-bottom: 40px;
+}
+
+.container strong{
+  font-size: 25px;
+  font-style: bold;
+}
+.container p{
+  display:inline-block;
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.container .description{
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #47adf1;
+  border-radius: 10px;
+}
+
+.container .description.violet{
+  background-color: #9c72e4;
+}
+
+.container .description.green{
+  background-color: #64c0a9;
+}
+
+.container .description.orange{
+  background-color: #f29e33;
+}
+
+.container .description.red{
+  background-color: #d863a1;
+}
+
+.container .description.light_green{
+  background-color: #b0c926;
+}
+
+.down::before{
+  content: "\25Bc";
+}
+.check::before{
+  margin: 7px;
+  content:"\02713"
+}
+.cross::before{
+  margin: 7px;
+  content:"\0292C"
+}
+.check::first-letter{
+  border: 1.5px solid #83cfbf;
+  border-radius: 50%;
+  padding: 5px;
+}
+.cross::first-letter{
+  border: 1.5px solid red;
+  border-radius: 50%;
+  padding: 5px;
 }
