@@ -5,22 +5,43 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+body{
+  background-color: #f6f8f9;
+}
+
 
 h1{
-  font-size: 50px;
+  font-size: 65px;
+  font-weight: bold;
   display: inline-block;
   vertical-align: middle;
 }
 
+.container{
+  width: 80%;
+  max-width: 1350px;
+  min-width: 600px;
+  margin: 0 auto;
+  border: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.container.first{
+  margin-top: 100px;
+}
+
+
 /* HEADER */
 
 header{
-  height: 100px;
-  background-color: rgb(255, 255, 255);
+  height: 115px;
+  background-color: white;
 }
 
 header .logo{
   padding: 20px;
+  margin:auto;
 }
 
 header .logo img{
@@ -30,6 +51,27 @@ header .logo img{
 
 /* MAIN */
 
+main .buttons-container{
+  height: 80px;
 
+}
+.button-style{
+  margin: 23px 5px 15px 50px;
+  background-color: #47adf1;
+  border-radius: 10px;
+  border:none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  font-size: 16px;
 
-/* FOOTER */
+}
+
+.button-style.section{
+  margin: auto;
+  background-color: white;
+  color: rgb(190, 182, 182);
+  border: 0.5px solid grey;
+  padding: 11px 25px;
+  vertical-align: middle;
+}
