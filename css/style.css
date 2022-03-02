@@ -1,0 +1,37 @@
+/* GENERAL */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f8f9;
+}
+
+
+
+
+
+/* HEADER */
+header{
+  background-color: white;
+  padding: 10px 20px;
+}
+
+
+.logo{
+  vertical-align: middle;
+}
+
+.logo-text{
+  font-size: 35px;
+  font-weight: 900;
+  vertical-align: middle;
+}
+
+
+/* MAIN */
+.container{
+  
+}
