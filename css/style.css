@@ -56,6 +56,39 @@ ul{
   border: 1px solid red;
 }
 
+.tag{
+  vertical-align: middle;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  border-radius: 10px;
+}
+
+.tag.editorial{
+  background-color: #45abea;
+}
+
+.tag.goals{
+  background-color: #9c72e4;
+}
+
+.tag.recruiting{
+  background-color: #64c0a9;
+}
+
+.tag.mobile{
+  background-color: #f29e32;
+}
+
+.tag.website{
+  background-color: #d863a1;
+}
+
+.tag.sales{
+  background-color: #afc826;
+}
+
 /* HEADER */
 header{
   background-color: white;
@@ -99,3 +132,4 @@ header{
 .tasks h3::before{
   content:"\25be";
 }
+
