@@ -9,6 +9,10 @@ body{
   background-color: #f6f8f9;
 }
 
+ul{
+  list-style: none;
+}
+
 
 /* utilities */
 .btn{
@@ -22,7 +26,7 @@ body{
   background-color: #47adf1;
   color: white;
   border: 1px solid #47adf1;
-
+  
 }
 .btn-empty{   /*eccezione bottone 2*/
   background-color: white;;
@@ -30,6 +34,9 @@ body{
   border: 1px solid #C5CBD0;
 }
 
+.circle{
+  
+}
 
 /* HEADER */
 header{
@@ -61,4 +68,16 @@ header{
 .container .top{
   padding: 15px 50px;
   border-bottom: 1px solid #f6f8f9;
+}
+
+.container .tasks{
+  padding: 50px;
+}
+
+.tasks li{
+  padding: 10px 0;
+}
+
+.tasks h3::before{
+  content:"\25be";
 }
