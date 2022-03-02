@@ -10,13 +10,32 @@ body{
 }
 
 
+/* utilities */
+.btn{
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
+.btn-filled{  /*eccezione bottone 1*/
+  background-color: #47adf1;
+  color: white;
+  border: 1px solid #47adf1;
+
+}
+.btn-empty{   /*eccezione bottone 2*/
+  background-color: white;;
+  color:lightgrey;
+  border: 1px solid #C5CBD0;
+}
 
 
 /* HEADER */
 header{
   background-color: white;
   padding: 10px 20px;
+  margin-bottom: 50px;
 }
 
 
@@ -33,5 +52,13 @@ header{
 
 /* MAIN */
 .container{
-  
+  width: 60%;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.container .top{
+  padding: 15px 50px;
+  border-bottom: 1px solid #f6f8f9;
 }
